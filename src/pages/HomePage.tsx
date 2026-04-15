@@ -111,7 +111,7 @@ export function HomePage() {
                 <img
                   src="/OGcannoli.png"
                   alt="OG Cannoli character art"
-                  className="relative z-[1] h-[141px] w-auto object-contain brightness-90 drop-shadow-[0_10px_20px_rgba(0,0,0,0.28)] sm:h-[167px] md:h-[188px] md:translate-y-[2px]"
+                  className="relative z-[1] h-[141px] w-auto -translate-x-[10px] object-contain brightness-90 drop-shadow-[0_10px_20px_rgba(0,0,0,0.28)] sm:h-[167px] md:h-[188px] md:translate-x-0 md:translate-y-[2px]"
                 />
               </div>
               <img
