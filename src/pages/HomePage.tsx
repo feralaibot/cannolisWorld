@@ -99,11 +99,11 @@ export function HomePage() {
               <img
                 src="/cannoli-hero.png"
                 alt="Holy Cannoli hero art"
-                className="w-[37%] -translate-x-[40px] object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.3)] sm:w-[30%] md:w-[27%] md:translate-x-0"
+                className="w-[37%] -translate-x-[40px] translate-y-[30px] object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.3)] sm:w-[30%] md:w-[27%] md:translate-x-0 md:translate-y-0"
               />
               <div className="relative flex translate-x-[-7px] items-end justify-center">
                 <div
-                  className="pointer-events-none absolute bottom-[-2px] left-1/2 h-[28px] w-[104px] -translate-x-1/2 rounded-full opacity-100 blur-[12px] sm:h-[34px] sm:w-[120px] md:h-[40px] md:w-[138px]"
+                  className="pointer-events-none absolute bottom-[-2px] left-[calc(50%-15px)] h-[28px] w-[104px] -translate-x-1/2 translate-y-[30px] rounded-full opacity-100 blur-[12px] sm:h-[34px] sm:w-[120px] md:left-1/2 md:h-[40px] md:w-[138px] md:translate-y-0"
                   style={{
                     background: 'radial-gradient(ellipse at center, rgba(255, 232, 170, 0.72) 0%, rgba(255, 214, 120, 0.42) 36%, rgba(255, 196, 92, 0.2) 58%, transparent 80%)',
                   }}
@@ -111,13 +111,13 @@ export function HomePage() {
                 <img
                   src="/OGcannoli.png"
                   alt="OG Cannoli character art"
-                  className="relative z-[1] h-[141px] w-auto -translate-x-[10px] object-contain brightness-90 drop-shadow-[0_10px_20px_rgba(0,0,0,0.28)] sm:h-[167px] md:h-[188px] md:translate-x-0 md:translate-y-[2px]"
+                  className="relative z-[1] h-[141px] w-auto -translate-x-[10px] translate-y-[35px] object-contain brightness-90 drop-shadow-[0_10px_20px_rgba(0,0,0,0.28)] sm:h-[167px] md:h-[188px] md:translate-x-0 md:translate-y-[2px]"
                 />
               </div>
               <img
                 src="/cannoli4.png"
                 alt="Holy Cannoli character 4"
-                className="h-[133px] w-auto translate-x-1 object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.3)] sm:h-[155px] md:h-[173px] md:translate-x-[-28px]"
+                className="h-[133px] w-auto translate-x-1 translate-y-[30px] object-contain drop-shadow-[0_10px_20px_rgba(0,0,0,0.3)] sm:h-[155px] md:h-[173px] md:translate-x-[-28px] md:translate-y-0"
               />
             </div>
             <div className="pointer-events-none absolute inset-0 z-30 bg-gradient-to-br from-amber-300/7 via-transparent to-pink-400/7" />
